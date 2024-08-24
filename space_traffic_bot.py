@@ -20,7 +20,7 @@ db_cursor.execute('''CREATE TABLE IF NOT EXISTS referral_chanels (id INTEGER PRI
 db_connector.commit()
 close_db()
 
-space_traffic_bot = telebot.TeleBot('7396330399:AAHrbIcBdmI8yoJSd9hNX5baqqWq8KZyMvc')
+space_traffic_bot = telebot.TeleBot('')
 space_traffic_bot_users = {}
 
 def clear_messages(message_type, chat_id):
